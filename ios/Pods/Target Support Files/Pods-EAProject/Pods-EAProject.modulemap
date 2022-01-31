@@ -1,0 +1,6 @@
+module Pods_EAProject {
+  umbrella header "Pods-EAProject-umbrella.h"
+
+  export *
+  module * { export * }
+}

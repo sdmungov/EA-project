@@ -1,0 +1,6 @@
+module Pods_EAProject_EAProjectTests {
+  umbrella header "Pods-EAProject-EAProjectTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
