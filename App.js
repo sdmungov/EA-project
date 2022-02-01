@@ -94,6 +94,10 @@ const App = () => {
     return (
       <Modal animationType="slide" transparent={false} visible={modalVisible}>
         <View style={styles.modal}>
+          <Text style={[styles.instructions, { width: "85%" }]}>
+            Which position do you want to assign to {currentPlayer?.firstName}{" "}
+            {currentPlayer?.lastName}?
+          </Text>
           {options.map((option, index) => {
             return (
               <TouchableOpacity
@@ -481,6 +485,8 @@ const styles = StyleSheet.create({
     marginVertical: 8,
     fontSize: 16,
     fontWeight: "500",
+    textAlign: "center",
+    alignSelf: "center",
   },
   divider: {
     borderBottomWidth: 1,
