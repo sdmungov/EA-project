@@ -25,6 +25,7 @@ cd ..
 yarn run ios
 ```
 #### or
+
 ```terminal
 yarn run android
 ```
